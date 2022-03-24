@@ -1,4 +1,4 @@
-const apiUrl = 'http://www.colourlovers.com/api/pattern/1451?format=json'
+const apiUrl = 'https://www.colourlovers.com/api/pattern/1451?format=json'
 
 fetch(apiUrl).then(function(response) {
   console.log(response)
